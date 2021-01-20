@@ -19,9 +19,9 @@
     <textarea id="userText" oninput="updateText()" rows=10 cols=50 placeholder="Type your card message here"></textarea>
 
     <div id='colorSelector'>
-        <div class='colorChoice' style="background-color: red"></div>
-        <div class='colorChoice' style="background-color: blue"></div>
-        <div class='colorChoice' style="background-color: green"></div>
+        <div class='colorChoice' onclick="changeTextColor('red')" style="background-color: red"></div>
+        <div class='colorChoice' onclick="changeTextColor('blue')" style="background-color: blue"></div>
+        <div class='colorChoice' onclick="changeTextColor('green')" style="background-color: green"></div>
     </div>
 
     <script src="app.js"></script>

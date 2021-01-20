@@ -6,7 +6,5 @@ const updateText = () => {
 };
 
 const changeTextColor = (selectedColor) => {
-    console.log(selectedColor);
+    cardMessage.style.color = selectedColor;
 };
-
-changeTextColor("you've selected red!");
