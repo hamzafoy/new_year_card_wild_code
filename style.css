@@ -1,0 +1,23 @@
+#cardBackground {
+    width: 500px;
+}
+  
+#cardBackground img {
+    width: 100%;
+}
+  
+#cardMessage {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+.colorChoice {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+}
+
+#colorSelector {
+    display: flex;
+}

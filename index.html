@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Make you card workshop! :)</h1>
+    <div id="cardContainer">
+        <div id="cardBackground">
+            <img src="https://i.imgur.com/0VTfLhx.png" alt="card background">
+        </div>
+        <div id="cardMessage">Card message</div>
+    </div>
+    <textarea id="userText" oninput="updateText()" rows=10 cols=50 placeholder="Type your card message here"></textarea>
+
+    <div id='colorSelector'>
+        <div class='colorChoice' style="background-color: red"></div>
+        <div class='colorChoice' style="background-color: blue"></div>
+        <div class='colorChoice' style="background-color: green"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
